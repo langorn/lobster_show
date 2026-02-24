@@ -1,5 +1,9 @@
 # Lobster Desktop App 🦞
 
+<p align="center">
+  <img src="assets/Animation.gif" alt="Lobster Animation Preview" width="400">
+</p>
+
 [English](#english) | [中文](#中文)
 
 ---
