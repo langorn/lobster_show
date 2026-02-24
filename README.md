@@ -90,6 +90,13 @@ To control the lobster manually (external to OpenClaw), publish a JSON message t
 ```
 Supported states: `idle`, `eating`, `sleeping`, `thinking`, `responding`, `offline`, `tool_start`, `tool_end`.
 
+### Support
+If you enjoy this project, please consider:
+- ☕ [Buying me a coffee](https://www.buymeacoffee.com/marktai)
+- ⭐ Giving this repository a star!
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/marktai)
+
 ---
 
 <a name="中文"></a>
@@ -173,3 +180,10 @@ npm start
 }
 ```
 支持的狀態：`idle`, `eating`, `sleeping`, `thinking`, `responding`, `offline`, `tool_start`, `tool_end`。
+
+### 支持與鼓勵
+如果你喜歡這個專案，歡迎：
+- ☕ [請我喝杯咖啡](https://www.buymeacoffee.com/marktai)
+- ⭐ 幫這個倉庫點個 Star！
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/marktai)
