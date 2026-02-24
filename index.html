@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobster Desktop App</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="node_modules/phaser/dist/phaser.min.js"></script>
+    <script src="node_modules/mqtt/dist/mqtt.min.js"></script>
+</head>
+
+<body>
+    <button id="menu-toggle-btn" class="floating-btn">⚙️</button>
+
+    <div id="settings-panel" class="hidden">
+        <div class="settings-content">
+            <h2 id="settings-title">⚙️ 設置</h2>
+
+            <div class="settings-group">
+                <h3 id="language-group-title">🌐 語言 / Language</h3>
+                <div class="input-col">
+                    <select id="language-select">
+                        <option value="zh">繁體中文</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="settings-group">
+                <h3 id="lobster-group-title">🏷️ 龍蝦設定</h3>
+                <div class="input-col">
+                    <input type="text" id="name-input" placeholder="輸入名字...">
+                    <div class="input-row" style="align-items: center;">
+                        <label id="scale-label" style="color:white; font-size: 14px; white-space: nowrap;">大小:</label>
+                        <input type="number" id="scale-input" step="0.1" min="0.1" value="3.0">
+                    </div>
+                </div>
+            </div>
+
+            <button id="save-settings-btn">儲存設定</button>
+            <button id="close-settings-btn">完成</button>
+        </div>
+    </div>
+
+    <div id="game-container"></div>
+
+    <script src="game.js"></script>
+</body>
+
+</html>

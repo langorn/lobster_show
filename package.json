@@ -1,0 +1,29 @@
+{
+  "name": "lobster-desktop-app",
+  "version": "1.0.0",
+  "description": "A virtual lobster pet desktop app with MQTT integration.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "phaser",
+    "mqtt",
+    "aedes",
+    "virtual-pet"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aedes": "^0.50.0",
+    "dotenv": "^16.0.0",
+    "mqtt": "^5.0.0",
+    "phaser": "^3.60.0",
+    "websocket-stream": "^5.0.1"
+  },
+  "devDependencies": {
+    "electron": "^25.0.0"
+  }
+}

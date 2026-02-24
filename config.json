@@ -1,0 +1,7 @@
+{
+  "mqtt_user": "lobster_user",
+  "mqtt_pass": "lobster_pass_1234",
+  "lobsterName": "NANA",
+  "lobsterScale": 3,
+  "language": "zh"
+}
