@@ -1,0 +1,12 @@
+{
+  "name": "lobster-mqtt-reporter",
+  "version": "1.0.0",
+  "description": "Send real-time status to Lobster Desktop App via MQTT",
+  "main": "index.js",
+  "dependencies": {
+    "mqtt": "^5.10.0"
+  },
+  "openclaw": {
+    "extensions": ["./index.js"]
+  }
+}

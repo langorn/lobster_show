@@ -1,0 +1,16 @@
+{
+  "id": "lobster-mqtt-reporter",
+  "name": "lobster-mqtt-reporter",
+  "version": "0.1.0",
+  "main": "index.js",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "url": { "type": "string" },
+      "topic": { "type": "string" }
+    },
+    "required": [],
+    "additionalProperties": true
+  }
+
+}
