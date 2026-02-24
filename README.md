@@ -21,6 +21,13 @@ A virtual pet desktop application built with Electron, Phaser 3, and MQTT. The a
 - **Pixel-Perfect Rendering**: Sharp visuals using Phaser's pixel art mode.
 - **Beautiful Background**: Dynamic background scaling for 1024x768 resolution.
 
+### Pros & Cons
+- **✅ Pros**:
+    - **Zero Token Cost**: It does not consume any LLM tokens; it simply reflects the state of your existing OpenClaw instance.
+    - **Lightweight**: Low resource usage for a visual companion.
+- **❌ Cons**:
+    - **State Only**: It only displays the current state (e.g., "thinking", "eating") and doesn't reveal the actual thought content or specific reasoning from the underlying AI.
+
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v16 or higher recommended)
 - [npm](https://www.npmjs.com/)
@@ -97,6 +104,13 @@ Supported states: `idle`, `eating`, `sleeping`, `thinking`, `responding`, `offli
 - **多語言支持**：支持中英文切換。
 - **像素級渲染**：開啟 Phaser 像素藝術模式，確保縮放時畫質銳利。
 - **精美背景**：支持 1024x768 分辨率的背景自動縮放。
+
+### 優缺點
+- **✅ 優點**：
+    - **不消耗 Token**：本專案僅讀取 OpenClaw 的狀態，不會額外消耗 LLM 的 Token，節省成本。
+    - **輕量化**：作為視覺伴侶，資源佔用極低。
+- **❌ 缺點**：
+    - **僅顯示狀態**：它只能顯示當前狀態（如「正在思考」、「正在進食」），無法得知 AI 具體的思考內容或推理過程。
 
 ### 準備工作
 - [Node.js](https://nodejs.org/) (建議 v16 或更高版本)
